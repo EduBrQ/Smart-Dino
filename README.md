@@ -22,6 +22,7 @@ Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 ## Dependencias:
 
 Crie uma virtualenv local, ou se preferir utilize alguma que já possui.
+Caso não saiba criar uma venv: Tenha o python instalado & https://virtualenv.pypa.io/en/stable/installation/
 Então instale as dependências:
 ```
 numpy
