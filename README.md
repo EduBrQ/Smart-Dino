@@ -36,9 +36,15 @@ Pelo prompt:
 #### Agora instale as dependências:
 
 ```
+$pip3 install pyautogui
+$pip install opencv-python
+```
+&
+```
 $pip install -r dependencias
 ```
 
+	
 ## Iniciando:
 
 1. Abra o jogo:
