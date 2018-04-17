@@ -35,14 +35,8 @@ Pelo prompt:
 
 #### Agora instale as dependências:
 
-$pip install nomeDependencia
-
 ```
-numpy
-scipy
-pyautogui
-opnecv-python
-mss
+$pip install -r dependencias
 ```
 
 ## Iniciando:
