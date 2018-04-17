@@ -4,14 +4,6 @@
 
 Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 
-Para o código funcionar da melhor forma abra o jogo da seguinte forma:
-	Abra uma nova aba no Chrome;
-	Com o botão direito do mouse selecione "inspecionar";
-	Em network, marque a opção "offline";
-	Tente carregar qualquer link;
-Pronto, nesse momento o game deve ter aparecido na tela.
-
-
 #### Dependencias:
 
 Crie uma virtualenv local, ou se preferir utilize alguma que já possui.
@@ -25,7 +17,13 @@ mss
 ```
 #### Iniciando:
 
-1. Abra o game como(utilize da forma mencioanada acima);
+1. Abra o jogo:
+Para o código funcionar da melhor forma abra o jogo da seguinte forma:
+	- Abra uma nova aba no Chrome;
+	- Com o botão direito do mouse selecione "inspecionar";
+	- Em network, marque a opção "offline";
+	- Tente carregar qualquer link;
+Pronto, nesse momento o game deve ter aparecido na tela.
 
 2. Rode:
 ```
