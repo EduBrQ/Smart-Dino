@@ -5,10 +5,10 @@
 Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 
 Para o código funcionar da melhor forma abra o jogo da seguinte forma:
-	* Abra uma nova aba no Chrome;
-	* Com o botão direito do mouse selecione "inspecionar";
-	* Em network, marque a opção "offline";
-	* Tente carregar qualquer link;
+	Abra uma nova aba no Chrome;
+	Com o botão direito do mouse selecione "inspecionar";
+	Em network, marque a opção "offline";
+	Tente carregar qualquer link;
 Pronto, nesse momento o game deve ter aparecido na tela.
 
 
@@ -24,17 +24,22 @@ opnecv-python
 mss
 ```
 #### Iniciando:
+
+1. Abra o game como(utilize da forma mencioanada acima);
+
+2. Rode:
 ```
 $python treino.py
 ```
-## Utilitarios
 
-OpenCV para encontrar o local da tela onde está o jogo. 
+## Estruturas
 
-Então é usado o MSS para capturar essa tela e deixar em escala de Cinza. 
+- OpenCV para encontrar o local da tela onde está o jogo. 
 
-Para encontrar os obstáculos: média dos valores dos pixels da coluna.
-As colunas que forem escurar o suficiente serão obstáculos. 
+- Então é usado o MSS para capturar essa tela e deixar em escala de Cinza. 
+
+- Para encontrar os obstáculos: média dos valores dos pixels da coluna.
+  As colunas que forem escurar o suficiente serão obstáculos. 
 
 A distancia entre a ação de pular do Dino e os obstaculos é definida assim:
 
