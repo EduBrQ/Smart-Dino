@@ -3,21 +3,9 @@ import AIs
 import pickle
 import run
 
-# SPSA - Simultaneous perturbacao stochastic approx
+# SPSA - Simultaneous perturbation stochastic approx
 def spsa(f, teta, file_name = 'spsa_export',alfa=0.602, gamma=.101, a=5, big_a=None, c=20, iteracoes_max=1000, relatorio=10):
-    """
-    : param f: função para minimizar
-    : param teta: input inicial
-    : param alfa: Parâmetro - Ótimo mostrado para ser .101
-    : param gamma: Parâmetro - Ótimo mostrado para ser 0,602
-    : param big_a: menos de 10% de iteracoes_max
-    : param a: a / (A + 1) ^ alfa aproximadamente igual às menores magnitudes de mudança desejadas
-    : param c: Set c no nível aproximadamente igual ao st dev pode ser est. Não precisa ser preciso
-    : param iteracoes_max: Número máximo de iterações permitido
-    : param relatório: quantas vezes você deseja ver o relatório impresso
-    : retorno: teta ótimo
-    """
-
+    
     if big_a is None:
         big_a = (iteracoes_max * .05)
 
