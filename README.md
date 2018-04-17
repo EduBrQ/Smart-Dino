@@ -4,6 +4,21 @@
 
 Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 
+## O Código
+	- game_frame.py:
+		-> Função: Detectar os elementos que serão manipulados futuramente;
+	- run.py:
+		-> Importa game_frame;
+		-> Função: Manipulação dos elementos coletados pela classe 'game_frame';
+		-> PyAutoGui: funções de teclado e mouse;
+	- AIs.py:
+		-> Importa run;
+		-> Função: O 'cerebro' do projeto;
+	- Treino:
+		-> Importa run e AIs;
+		-> Implementa o algoritmo SPSA. - http://www.jhuapl.edu/SPSA/Pages/MATLAB.htm;
+		-> SPSA - Função: Otimizar o vetor de escolhas, para obter maior pontuação;
+
 #### Dependencias:
 
 Crie uma virtualenv local, ou se preferir utilize alguma que já possui.
