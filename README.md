@@ -23,8 +23,10 @@ pyautogui
 opnecv-python
 mss
 ```
-
-
+#### Iniciando:
+```
+$python treino.py
+```
 ## Utilitarios
 
 OpenCV para encontrar o local da tela onde está o jogo. 
