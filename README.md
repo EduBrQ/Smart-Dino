@@ -19,7 +19,7 @@ Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 		-> Implementa o algoritmo SPSA. - http://www.jhuapl.edu/SPSA/Pages/MATLAB.htm;
 		-> SPSA - Função: Otimizar o vetor de escolhas, para obter maior pontuação;
 
-## Dependencias:
+## Dependências:
 
 #### Crie uma virtualenv local:
 
