@@ -21,19 +21,19 @@ Trata-se de um jogo bem simples, onde o Dino precisa desviar dos obstaculos.
 
 ## Dependencias:
 
-#Crie uma virtualenv local:
+####Crie uma virtualenv local:
 
 Caso não saiba criar uma venv: 
 	Instale o python;
 	Siga a documentação: https://virtualenv.pypa.io/en/stable/installation/
 	
-#Ative a sua virtualenv:
+####Ative a sua virtualenv:
 
 Pelo prompt:
 	Vá para a pasta da venv criada localmente e abra a pasta Scripts;
 	rode: $activate;
 
-#Agora instale as dependências:
+####Agora instale as dependências:
 
 $pip install nomeDependencia
 
